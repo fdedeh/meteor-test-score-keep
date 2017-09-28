@@ -1,0 +1,26 @@
+.item{
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  margin-bottom: 1.3rem;
+  padding: 1.3rem;
+}
+
+.item__message{
+  font-size: 1.3rem;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+}
+
+.item--pos-1{
+  background: $gold;
+  border-color: darken($gold, 15%);
+}
+.item--pos-2{
+  background: $silver;
+  border-color: darken($silver, 15%);
+}
+.item--pos-3{
+  background: $bronze;
+  border-color: darken($bronze, 15%);
+}
